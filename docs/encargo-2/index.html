@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Encargo 2 - Nombre Alumno</title>
+  <title>Encargo 2 - Mecanizado CNC - Nombre Alumno</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://isabelpintodela.github.io/favicon.png">
@@ -107,11 +107,11 @@
     </li>
     
     <li class="">
-      <a href="https://isabelpintodela.github.io/docs/encargo-1/">Encargo 1</a>
+      <a href="https://isabelpintodela.github.io/docs/encargo-1/">Encargo 1 - Planimetría</a>
     </li>
     
     <li class="active ">
-      <a href="https://isabelpintodela.github.io/docs/encargo-2/">Encargo 2</a>
+      <a href="https://isabelpintodela.github.io/docs/encargo-2/">Encargo 2 - Mecanizado CNC</a>
     </li>
     
   </ul>
@@ -121,36 +121,82 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Encargo 2</h1>
+<h1 class="title">Encargo 2 - Mecanizado CNC</h1>
 <div class="content ">
   <h1 id="mecanizado-en-cnc">Mecanizado en CNC</h1>
 <p>Es el proceso de corte de materiales mediante una máquina de control numérico por computadora. &ldquo;Este consiste en un mecanismo de automatización mediante diversos comandos informáticos o softwares que dirigen cada una de las actividades de la máquina-herramienta y el mecanizado&rdquo;.
 Parte importante de esto es entender que de la máquina nunca saldrán piezas perfectas y terminadas, sino que luego estas se deben trabajar.</p>
 <p><img src="/img/encargo2img/imgE2-uno.jpg" alt="MecanizadoCNC"></p>
 <h2 id="hisoria-del-mecanizado-cnc">Hisoria del mecanizado CNC</h2>
-<p>Surgió en el año 1940 gracias a los trabajos realizados por el ingeniero estadounidense John T. Parsons.</p>
+<p>Surgió en el año 1940 gracias a los trabajos realizados por el ingeniero estadounidense John T. Parsons.
+En el año 1952, se creó por el MIT el primer prototipo de una máquina CNC de mecanizado.</p>
+<p>Fuente: <a href="https://www.grumeber.com/mecanizado-que-es/">https://www.grumeber.com/mecanizado-que-es/</a></p>
 <h2 id="encargo">Encargo</h2>
-<p>Para este encargo se trabajó con una silla de madera y se pidió hacer el mecanizado CNC en el programa Fusion 360 de sus partes. Cabe destacar que dejaré una explicación para todas las piezas y otra para el asiento, ya que esta varía de manera mínima.
-A continuación les mostraré los pasos a seguir.</p>
+<p>Para este encargo se trabajó con una silla de madera y se pidió hacer el mecanizado CNC en el programa Fusion 360 de sus partes. Dejaré una explicación para todas las piezas y otra para el asiento, ya que esta varía de manera mínima.
+A continuación les mostraré mediante un iframe el modelo a trabajar, y luego los pasos a seguir.
+<div>
+    <iframe 
+    src="https://alumnos2141.autodesk360.com/shares/public/SH919a0QTf3c32634dcf42fb6545ae8cc625?mode=embed"  
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+
+</p>
 <h2 id="proceso-de-mecanizado-cnc-piezas">Proceso de mecanizado CNC piezas:</h2>
 <h4 id="1-crear-mi-área-de-trabajo">1. Crear mi área de trabajo.</h4>
-<p>Con mi objeto ya modelado, primero debo definir la plancha en la cuál voy a trabajar, darle un tamaño, grosor y materialidad. Para hacer esto debo ir arriba, y seleccionar un Sketch, la cara en la que quiero trabajar, hacer un rectángulo y luego extruirlo.</p>
-<p><img src="/img/encargo2img/2.jpg" alt="Sketch"></p>
-<p>En este caso se trabajó con media plancha de teriado de 15 mm de grosor y de 1220 x 1220 mm.</p>
+<p>Con mi objeto ya modelado, primero debo:</p>
+<ul>
+<li>Definir la plancha en la cuál voy a trabajar, darle un tamaño, grosor y materialidad. Para hacer esto debo ir arriba en el lado izquierdo, y seleccionar <em>Sketch</em>, la cara en la que quiero trabajar, y el <em>rectángulo</em></li>
+<li>Luego debo <em>extruir</em> este.</li>
+</ul>
+<p>En este caso se trabajó con media plancha de teriado de 15 mm de grosor y de 1220 x 1220 mm.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargo2img/sketch.mp4"  type="video/mp4">
+    </video>
+</div></p>
 <h4 id="2-definir-las-piezas-a-mecanizar">2. Definir las piezas a mecanizar.</h4>
-<p>Con la herramienta Move/Copy, debo separar todas las piezas de mi objeto (copiandolas) y alinearlas a la plancha de trabajo previamente definida y ubicarlas en ella.</p>
-<h4 id="3-determinar-los-tipos-de-corte">3. Determinar los tipos de corte.</h4>
-<p>Debo ir arriba donde dice &ldquo;Design&rdquo; y cambiar a &ldquo;Manufacture&rdquo;.</p>
-<p>Luego debo crear un nuevo &ldquo;Set up&rdquo;.</p>
-<p>Ahora debemos seleccionar el tipo de máquina que queremos ocupar &ldquo;Generic 3-Axis&rdquo;.</p>
-<p>Lo siguiente que se define es el Stock -&gt; Mode -&gt; From solid (seleccionamos la plancha).</p>
-<p>Después en Model definir las piezas que quiero cortar.</p>
-<p>Luego la orientación &ldquo;Select Z axis / Plane &amp; X axis&rdquo;. Selecciono la cara de arriba de la plancha, el borde y finalmente el punto de origen de la máquina &ldquo;Box Point&rdquo; que en este caso es el superior irqiuerdo.</p>
-<p>Terminando esto le podemos dar al &ldquo;Ok&rdquo;.</p>
-<p>Ahora definimos el tipo de corte que haré, tenemos 3 opciones de operaciones:</p>
+<ul>
+<li>Con la herramienta <em>Move/Copy</em> que se ubica arriba al centro, debo separar todas las piezas de mi objeto (copiandolas -&gt; <em>Create Copy</em>).</li>
+<li>Después debo alinearlas <em>(&ldquo;MODIFY-&gt; ALIGN&rdquo;)</em> a la plancha de trabajo previamente definida y ubicarlas en ella.  Al alinear las piezas debo preocuparme que el rebaje de cada pieza quede hacia arriba, si no está de esta forma apreto <em>flip</em>.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargo2img/ubicpie.mp4"  type="video/mp4">
+    </video>
+</div></li>
+</ul>
+<h4 id="3-configurar-opciones-de-mecanizado">3. Configurar opciones de mecanizado.</h4>
+<ul>
+<li>Debo ir arriba donde dice <em>Design -&gt; Manufacture</em>.</li>
+<li>Luego debo crear un nuevo <em>Set up</em>.</li>
+<li>Ahora debemos seleccionar el tipo de máquina (<em>Machine</em>) que queremos ocupar <em>Generic 3-Axis</em>.</li>
+<li>Lo siguiente que se define es el <em>Stock -&gt; Mode -&gt; From solid</em>, seleccionamos la plancha que dibujamos).</li>
+<li>Después en <em>Model</em> definir las piezas que quiero cortar (las selecciono).</li>
+<li>Luego la <em>Orientation -&gt; Select Z axis / Plane &amp; X axis</em>, selecciono la cara de arriba de la plancha, el borde y finalmente el punto de origen de la máquina <em>Stock Point -&gt; Box Point</em> que en este caso es el superior irqiuerdo.</li>
+</ul>
+<p>Terminando esto le podemos dar al <em>Ok</em>.</p>
+<h4 id="4-determinar-los-tipos-de-corte">4. Determinar los tipos de corte.</h4>
+<ul>
+<li>Definimos los tipos de corte a realizar, tenemos 3 opciones de operaciones: Estas se aplican dependiendo la forma de la pieza. Se puede aplicar tanto una, como dos, o las tres.</li>
+</ul>
 <h6 id="2d-contour-interior">2D Contour Interior</h6>
-<p>Nos acercamos la pieza y seleccionamos el vector inferior del calado. En palabras más simples se podría decir que son los hoyitos de dentro de la pieza. Esto lo hago para todas las piezas.</p>
-<p>Elijo el tipo de fresa, en este caso es con diámetro de &ldquo;6 mm&rdquo;. Hay que tener en cuenta que una fresa de 6 mm no puede perforar una placa de 15 mm de una sola pasada. Es por esto que debemos ir a &ldquo;Passes&rdquo; -&gt; &ldquo;Múltiples depths&rdquo; -&gt; 3mm. Esto es para cortar por pasos y no dañar la fresa o plancha.
+<p>Esta operación se usa para el interior de cada pieza.</p>
+<ul>
+<li>Nos acercamos a cada pieza y seleccionamos el vector inferior del calado de cada una. En palabras más simples se podría decir que son los hoyitos de dentro de la pieza.</li>
+<li>Elijo el tipo de fresa (que nos la pide automáticamente), en este caso es con diámetro de &ldquo;6 mm&rdquo;. Hay que tener en cuenta que una fresa de 6 mm no puede perforar una placa de 15 mm de una sola pasada. Es por esto que debemos ir a <em>Passes -&gt; Múltiples depths -&gt; 3mm</em>. Esto es para cortar por niveles y no dañar la fresa o plancha.</li>
+</ul>
+<p>Si quiero ver la simulación que aparece a continuación voy a <em>Set Up -&gt; 2D Contour -&gt; Click derecho -&gt; Simulate</em>
 <div>
     <video 
     width="100%" 
@@ -160,7 +206,7 @@ A continuación les mostraré los pasos a seguir.</p>
     </video>
 </div></p>
 <h6 id="2d-pocket">2D Pocket</h6>
-<p>Este se usa para los rebajes de la pieza. Acá ya tenemos la fresa seleccionada y debemos hacer lo mismo con los &ldquo;Pases&rdquo;.
+<p>Esta operación se usa para los rebajes de la pieza, por lo que es esta cara de cada pieza la que debo seleccionar. Acá ya tenemos la fresa seleccionada anteriormente y debemos hacer lo mismo que en el paso anterior con los &ldquo;Pases&rdquo;.
 <div>
     <video 
     width="100%" 
@@ -170,7 +216,10 @@ A continuación les mostraré los pasos a seguir.</p>
     </video>
 </div></p>
 <h6 id="2d-contour-exterior">2D Contour Exterior</h6>
-<p>Para finalizar, tengo que cortar los bordes por fuera de la pieza. Se repiten los mismos pasos que en el primer contour. Pero acá debemos que tener ojo, porque no podemos dejar la pieza suelta, ya que saldría volando, entonces para esto usamos los &ldquo;Tabs&rdquo; que son pequeñas áreas donde la fresa no va a generar mecanizado, pasa por arriba y deja sin cortar. Estos los agregamos en &ldquo;Geometría&rdquo; -&gt; tab.
+<p>Para finalizar, tengo que cortar los bordes de fuera de cada pieza.</p>
+<ul>
+<li>Se repiten los mismos pasos que en el primer contour. Pero acá debemos que tener ojo, porque no podemos dejar la pieza suelta, ya que saldría volando, entonces además debemos:</li>
+<li>Usar los &ldquo;Tabs&rdquo; que son pequeñas áreas donde la fresa no va a generar mecanizado, pasa por arriba con un salto y deja sin cortar. Estos los agregamos en <em>Geometría -&gt; tab</em>, ahí podemos definir su porte y la distancia entre estos según el material lo requiera.
 <div>
     <video 
     width="100%" 
@@ -178,7 +227,8 @@ A continuación les mostraré los pasos a seguir.</p>
     autoplay muted loop controls preload>
     <source src="/img//encargo2img/c-fuera-pata.mp4"  type="video/mp4">
     </video>
-</div></p>
+</div></li>
+</ul>
 <h6 id="y-con-estos-pasos-ya-tenemos-nuestra-pieza-mecanizada-claramente-estos-pasos-hay-que-repetirlos-en-todas-las-piezas-abajo-les-dejo-un-video-resumen-del-mecanizado-aplicado-a-todas-las-piezas-restantes-al-mismo-tiempo">Y con estos pasos ya tenemos nuestra pieza mecanizada. Claramente estos pasos hay que repetirlos en todas las piezas, abajo les dejo un video resumen del mecanizado aplicado a todas las piezas restantes al mismo tiempo.</h6>
 <div>
     <video 
@@ -189,8 +239,18 @@ A continuación les mostraré los pasos a seguir.</p>
     </video>
 </div>
 <h2 id="proceso-de-mecanizado-cnc-asiento">Proceso de mecanizado CNC asiento:</h2>
-<p>En un principio, los pasos son los mismos que para las piezas anteriores. Creo mi área de trabajo, ubico mi pieza sobre esta, determino que operación voy a realizar (2D Contour Exterior).</p>
-<p>Los únicos detalles diferentes es que el grosor de la plancha es de 9 mm.
+<p>Aca veremos el tema de generar flexibilidad del material en base a recortes.</p>
+<p>En un principio, los pasos son los mismos que para las piezas anteriores:</p>
+<ul>
+<li>Creo mi área de trabajo (sketch), aquí es donde encuentro la única diferencia que es que el grosor de la plancha es de 9 mm y no de 15mm como para las otras piezas de la silla</li>
+<li>Luego ubico mi pieza sobre esta extrusión</li>
+<li>Configuramos las opciones de mecanizado en <em>DESIGN -&gt; MANUFACTURE</em></li>
+<li>Finalmente determino qué operaciones voy a realizar.</li>
+</ul>
+<p>Definir los cortes a realizar.</p>
+<ul>
+<li>
+<p>En primer lugar, debo hacer un <em>2D Contour</em> (para el exterior de la pieza).
 <div>
     <video 
     width="100%" 
@@ -199,7 +259,10 @@ A continuación les mostraré los pasos a seguir.</p>
     <source src="/img//encargo2img/contour.mp4"  type="video/mp4">
     </video>
 </div></p>
-<p>Luego de esto, aparece un paso nuevo, debo ir a &ldquo;TRACE&rdquo;</p>
+</li>
+<li>
+<p>Luego de esto, aparece un paso nuevo,  debo ir a <em>2D Trace</em>
+Debo seleccionar las líneas que recorren el asiento, con esto le decimos a la fresa que pase por ese vector y que simplemente con una pasada le de el espesor. Es una trayectoria de trazo que dice que la fresa va a recorrer la línea que yo dibujé. En los <em>Pases</em> debo pinchar <em>Stock to leave</em> (que se refiere a que me deje material en la base por qué no quiero recortarlo completo) y le damos 4.5 mm, así llega hasta la mitad de la altura que le dimos en un principio. Lo que tenemos como resultado aquí es un material que se flexibiliza.
 <div>
     <video 
     width="100%" 
@@ -207,7 +270,10 @@ A continuación les mostraré los pasos a seguir.</p>
     autoplay muted loop controls preload>
     <source src="/img//encargo2img/trace.mp4"  type="video/mp4">
     </video>
-</div>
+</div></p>
+</li>
+</ul>
+<p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
 </div>
