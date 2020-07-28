@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fabricación Digital on Nombre Alumno</title>
+    <title>-Fabricación Digital- on Nombre Alumno</title>
     <link>https://isabelpintodela.github.io/</link>
-    <description>Recent content in Fabricación Digital on Nombre Alumno</description>
+    <description>Recent content in -Fabricación Digital- on Nombre Alumno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jun 2020 19:30:08 +1000</lastBuildDate>
@@ -53,7 +53,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-1/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <description>Planimetrías trabajadas con la Silla EAMES en Fusion 360.</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-2/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <description>Mecanizado CNC de la silla Fresia en Fusion 360.</description>
     </item>
     
     <item>
@@ -71,7 +71,16 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-3/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <description>Mecanizado 2.5D de la silla Fresia en Fusion 360.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 4...</title>
+      <link>https://isabelpintodela.github.io/docs/encargo-4/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/encargo-4/</guid>
+      <description>En proceso.</description>
     </item>
     
   </channel>
