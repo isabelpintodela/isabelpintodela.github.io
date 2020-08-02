@@ -122,6 +122,10 @@
       <a href="https://isabelpintodela.github.io/docs/encargo-4/">Encargo 4...</a>
     </li>
     
+    <li class="">
+      <a href="https://isabelpintodela.github.io/docs/encargo-opcionalg/">Encargo Bonus Grasshopper</a>
+    </li>
+    
   </ul>
 </div>
 
@@ -165,16 +169,16 @@ A continuación les mostraré mediante un iframe el modelo a trabajar, y luego l
 <p>Con mi objeto ya modelado, primero debo:</p>
 <ul>
 <li>Definir la plancha en la cuál voy a trabajar, darle un tamaño y grosor. Para hacer esto debo ir arriba en el lado izquierdo, y seleccionar <em>Sketch</em>, la cara (el plano) en la que quiero trabajar, y el <em>rectángulo</em></li>
-<li>Luego debo <em>extruir</em> este.</li>
+<li>Luego debo <em>extruir</em> este.
+<img src="/img/encargo3img/pr.jpg" alt="Mecanizado2.5D"></li>
 </ul>
-<p>En este caso se trabajó con una plancha sin medidas, es decir, la extrusión fue al ojo, preocupandonos que esta cubiera todo el respaldo y se pasara por todos los lados que se tienen.
-<img src="/img/encargo3img/respenplancha.png" alt="PlanchaRespaldo"></p>
-<p>Para mayor comodidad puedo poner este cuerpo un poco más transparente, bajandole su <em>OPACITY CONTROL</em>.</p>
+<p>En este caso se trabajó con una plancha sin medidas, es decir, la extrusión fue al ojo, preocupandonos que esta cubiera todo el respaldo y se pasara por todos los lados que se tienen. Para mayor comodidad puedo poner este cuerpo un poco más transparente, bajandole su <em>OPACITY CONTROL</em>. Este efecto se puede apreciar en la foto de arriba.</p>
 <h4 id="3-configurar-opciones-de-mecanizado">3. Configurar opciones de mecanizado.</h4>
 <ul>
 <li>Debo ir arriba donde dice <em>Design -&gt; Manufacture</em>.</li>
 <li>Luego debo crear un nuevo <em>Set up</em>.</li>
-<li>Ahora debemos seleccionar el tipo de máquina (<em>Machine</em>) que queremos ocupar <em>Generic 3-Axis</em> la fresadora.</li>
+<li>Ahora debemos seleccionar el tipo de máquina (<em>Machine</em>) que queremos ocupar <em>Generic 3-Axis</em> la fresadora.
+<img src="/img/encargo3img/maq.jpg" alt="Mecanizado2.5D"></li>
 <li>Lo siguiente que se define es el <em>Stock -&gt; Mode -&gt; From solid</em>, seleccionamos la plancha (el sólido) que modelamos.</li>
 <li>Luego la <em>Orientation -&gt; Select Z axis / Plane &amp; X axis</em>, selecciono la cara de arriba de la plancha, el borde y finalmente el punto de origen de la máquina <em>Stock Point -&gt; Box Point</em> que en este caso es el superior de adelante, irqiuerdo.</li>
 <li>Después en <em>Model</em> definir las piezas que quiero trabajar (las selecciono), que en este caso es el respaldo.</li>
@@ -183,18 +187,20 @@ A continuación les mostraré mediante un iframe el modelo a trabajar, y luego l
 <h4 id="4-optimizar-el-mecanizado">4. Optimizar el mecanizado.</h4>
 <ul>
 <li>Debo ir arriba donde dice <em>Manufacture -&gt; Design</em>.</li>
-<li>Vamos a hacer un nuevo <em>Sketch</em> en la cara superior de nuestra &ldquo;plancha&rdquo;. Para esto seleccionamos esa cara y vamos a <em>CREATE</em> -&gt; <em>Project</em> -&gt; <em>Proyect</em> y le hago click al respaldo. Con esto me hace un rectángulo perfecto de mi área de interés. Con esto tenemos, el bloque, el área de mecanizado, y la pieza.</li>
-<li>Ahora volvemmos al espacio de de manufactura; <em>Design -&gt; Manufacture</em>.</li>
+<li>Vamos a hacer un nuevo <em>Sketch</em> en la cara superior de nuestra &ldquo;plancha&rdquo;. Para esto seleccionamos esa cara y vamos a <em>CREATE</em> -&gt; <em>Project</em> -&gt; <em>Proyect</em> y le hago click al respaldo. Con esto me hace un rectángulo perfecto de mi área de interés, el cual se verá en la siguiente fotografía y ahora tenemos, el bloque, el área de mecanizado, y la pieza.
+<img src="/img/encargo3img/skar.jpg" alt="Mecanizado2.5D"></li>
+<li>Ahora volvemos al espacio de de manufactura; <em>Design -&gt; Manufacture</em>.</li>
 </ul>
 <h4 id="5-determinar-las-operaciones-de-mecanizado">5. Determinar las operaciones de mecanizado.</h4>
-<p>Definimos los tipos de operaciones a realizar, tenemos 3 opciones de operaciones. Las que dependen unas de otras.</p>
+<p>Definimos los tipos de operaciones a realizar, tenemos 3 opciones de operaciones. Las que dependen unas de otras y deben ser realizadas en orden.</p>
 <h6 id="51-adaptative-clearing">5.1 Adaptative Clearing</h6>
 <p>Limpieza o desbaste adaptativo, ¿Qué significa esto? Que vamos a remover material de mi pieza para optimizar o acelerar el proceso de obtencion de la superficie.</p>
 <ul>
 <li>Me pide la máquina a utilizar que es la misma que las veces anteriores.</li>
 <li>Luego me pide la fresa la cual debo seleccionar la misma que las veces anteriores, pero debo ir a editarla, ya que vamos a necesitar que esta sea un poco más larga que las veces anteriores.</li>
 </ul>
-<p>EDITAR FRESA: Darle botón derecho a la que estamos ocupando y poner <em>copy tool</em>, para no distorcionar la que ya tenemos, ahora vamos a editar esta, le ponemos un nombre y en <em>Cutter -&gt; Length Below Holder -&gt;40mm</em> Acá lo que hicimos fue ampliar la medida al doble. l lado derecho podemos ver como se edita el modelo de la fresa a tiempo real.</p>
+<p>EDITAR FRESA: Darle botón derecho a la que estamos ocupando y poner <em>copy tool</em>, para no distorcionar la que ya tenemos, ahora vamos a editar esta, le ponemos un nombre y en <em>Cutter -&gt; Length Below Holder -&gt;40mm</em> Acá lo que hicimos fue ampliar la medida al doble, al lado derecho podemos ver como se edita el modelo de la fresa a tiempo real.
+<img src="/img/encargo3img/frpled.jpg" alt="Mecanizado2.5D"></p>
 <ul>
 <li>Vamos a ir a la <em>Geometry -&gt; Machining Boundary -&gt; Selection</em>, y esta vez selecionamos el nuevo Sketch que realizamos, para que así mecanice solo dentro de este espacio.</li>
 <li>Luego en <em>Model</em>, seleccionamos el respaldo.</li>
@@ -209,53 +215,288 @@ El resultado de esto son varias trayectorias, donde la fresa en un principio ent
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img//encargo3img/video1desbastemalo.mp4"  type="video/mp4">
+    <source src="/img//encargo3img/adaptative1.mp4"  type="video/mp4">
     </video>
 </div></p>
 <h6 id="52-parallel">5.2 Parallel</h6>
 <p>Esto es una terminación paralela o parallel finishing.</p>
 <ul>
-<li>Los primeros pasos son los mismos que en la operación anterior. Nuevamente la máquina y fresa son las mismas. En <em>GEOMETRY</em> también son los mismos pasos y en <em>Model</em> seleccionamos el respaldo.</li>
+<li>
+<p>Los primeros pasos son los mismos que en la operación anterior. La máquina es la misma.</p>
+</li>
+<li>
+<p>Pero es aquí donde debo cambiar la fresa a una de punta redonda <em>ball and mill</em> porque esta da unas mejores terminaciones a esta acción, pero con las mismas características de la anterior, también debo duplicarla y editarla para dejar su <em>Length Below Holder en 40mm</em>
+<img src="/img/encargo3img/fresaredondaedit.jpg" alt="Mecanizado2.5D">
+Para una superficie de este orden no es estrictamente necesario una fresa de punta redonda, sobre todo para madera porque podemos lijar, pero los tallados  de punta redonda quedan mucho mejor en caso de superficies más complejas u otros materiales.</p>
+</li>
+<li>
+<p>Ahora en <em>GEOMETRY</em> también son los mismos pasos y en <em>Model</em> seleccionamos el respaldo.</p>
+</li>
 </ul>
 <p>Con esto listo damos <em>Ok</em> y esperamos que me genere la trayectoria.</p>
 <p>Si se dan cuenta la fresa aca esta recorriendo la superficie para darle una terminación mucho más continua.</p>
 <p>Es importante entender que debemos simular estos dos pasos al mismo tiempo, para que se hagan en orden.
-Se adjunta un video de la simulación, donde se puede apreciar que la fresa está recorriendo la superficie continamente. La Router está mecanizando en los dos ejes simultáneamente, en el plano frontal la fresa está bajando.
+Se adjunta un video de la simulación de la parte de esta acción, ya que arriba se puede ver el primer paso. Se puede apreciar que la fresa está recorriendo la superficie continamente. La Router está mecanizando en los dos ejes simultáneamente, en el plano frontal la fresa está bajando.
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img//encargo3img/paralelmalo.mp4"  type="video/mp4">
+    <source src="/img//encargo3img/paralelunouno.mp4"  type="video/mp4">
     </video>
 </div></p>
 <p>Luego de hacer la terminación paralela en un ángulo, lo correcto luego de esto sería hacerla en el ángulo perpendicular.</p>
-<p>Es por esto que voy a mi &ldquo;capa&rdquo; de Parallel, voy a duplicar la operación, luego entro a editar, voy a los <em>Passes -&gt; Pass Direction -&gt; 90° y en Stepover -&gt; 2 (mientras más pequeño sea esto, más alta es la resolución)</em></p>
+<ul>
+<li>Es por esto que voy a mi &ldquo;capa&rdquo; de Parallel, voy a duplicar la operación, luego entro a editar, voy a los <em>Passes -&gt; Pass Direction -&gt; 90° y en Stepover -&gt; 2 (mientras más pequeño sea esto, más alta es la resolución)</em></li>
+</ul>
 <p>Voy a dar <em>Ok</em> y podemos ver dos grillas,como se muestra en la siguiente imagen.
-<img src="/img/encargo3img/trayectoriasssparallel.png" alt="DOStrayectoriasParallel"></p>
-<h6 id="con-estos-pasos-listos-deberíamos-ir-a-simular-todos-juntos-para-que-se-hagan-en-orden-el-resultado-de-la-simulación-se-muestra-a-continuación-aquí-tenemos-lista-la-mecanización-de-la-parte-de-arriba-del-respaldo-ahora-deberíamos-hacer-la-parte-de-abajo-y-la-de-los-lados">Con estos pasos listos deberíamos ir a simular todos juntos, para que se hagan en orden. El resultado de la simulación se muestra a continuación. Aquí tenemos lista la mecanización de la parte de arriba del respaldo, ahora deberíamos hacer la parte de abajo y la de los lados.</h6>
+<img src="/img/encargo3img/dostraypar.jpg" alt="Mecanizado2.5D"></p>
+<p>Luego, aquí abajo podemos ver la acción de <em>Parallel</em> en el otro sentido.
 <div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img//encargo3img/l.mp4"  type="video/mp4">
+    <source src="/img//encargo3img/paralelunodos.mp4"  type="video/mp4">
     </video>
-</div>
-<h6 id="y-con-estos-pasos-ya-tenemos-nuestra-pieza-mecanizada-abajo-les-dejo-un-video-resumen-del-mecanizado">Y con estos pasos ya tenemos nuestra pieza mecanizada. Abajo les dejo un video resumen del mecanizado.</h6>
-<p><div>
+</div></p>
+<h6 id="con-estos-pasos-listos-deberíamos-ir-a-simular-todos-juntos-para-que-se-hagan-en-orden-el-resultado-de-la-simulación-es-la-suma-de-los-tres-videos-que-vieron-recién-aquí-tenemos-lista-la-mecanización-de-la-parte-de-arriba-del-respaldo">Con estos pasos listos deberíamos ir a simular todos juntos, para que se hagan en orden. El resultado de la simulación es la suma de los tres videos que vieron recién. Aquí tenemos lista la mecanización de la parte de arriba del respaldo.</h6>
+<h3 id="parte-de-abajo-respaldo">Parte de abajo respaldo.</h3>
+<p>Aquí los pasos son los mismos que se mostraron anteriormente, dejaré abajo las simulaciones de dicho proceso, cabe destacar que en Fusion 360 se ralizaron los mismos pasos pero vistos desde abajo y no de arriba como antes.</p>
+<p>Adaptative
+<div>
     <video 
     width="100%" 
     height="450" 
     autoplay muted loop controls preload>
-    <source src="/img//encargo3img/l.mp4"  type="video/mp4">
+    <source src="/img//encargo3img/adaptativedos.mp4"  type="video/mp4">
+    </video>
+</div></p>
+<p>Parallel en los dos sentidos.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargo3img/paraleldos1.mp4"  type="video/mp4">
     </video>
 </div>
-Cabe destacar que este mismo mecanizado en paralelo en figuras más complejas también se puede haber realizado con una fresa de punta redonda. Para una superficie de este orden no es estrictamente necesario, sobre todo para madera porque podemos lijar, pero los tallados  de punta redonda quedan mucho mejor en caso de superficies más complejas u otros materiales.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargo3img/paraleldos2.mp4"  type="video/mp4">
+    </video>
+</div></p>
+<p>Es importante entender que en el mundo físico, lo que se debería ocurrir, es que al yo hacer y tener lista mi zona o parte de arriba, luego debo retirarla de la máquina, darla vuelta y realizar el mismo proceso por el otro lado.</p>
+<h3 id="partes-laterales">Partes laterales.</h3>
+<p>Estas se trabajan luego de tener los otros dos lados del respaldo (frontal y trasero) terminados, se retira el cuerpo de la máquina y se procesan a mano, se lijan.
+<img src="/img/encargo3img/18.jpg" alt="Mecanizado2.5D"></p>
+<h6 id="y-con-estos-pasos-ya-tenemos-nuestra-pieza-es-decir-el-respaldo-mecanizada">Y con estos pasos ya tenemos nuestra pieza, es decir el respaldo, mecanizada.</h6>
 <h2 id="piezas-mecanizadas-en-la-vida-real">Piezas mecanizadas en la vida real.</h2>
 <p><img src="/img/encargo3img/19.jpg" alt="Mecanizado2.5D">
 <img src="/img/encargo3img/24.jpg" alt="Mecanizado2.5D">
-<img src="/img/encargo3img/res.jpg" alt="Mecanizado2.5D"></p>
+<img src="/img/encargo3img/res.jpg" alt="Mecanizado2.5D">
+<img src="/img/encargo3img/25.jpg" alt="Mecanizado2.5D">
+
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//18.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//18.jpg" alt="18th" />
+				    </div>
+			      <figcaption>
+		          <p>18th</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//18.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//19.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//19.jpg" alt="19th" />
+				    </div>
+			      <figcaption>
+		          <p>19th</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//19.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//24.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//24.jpg" alt="24th" />
+				    </div>
+			      <figcaption>
+		          <p>24th</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//24.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//25.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//25.jpg" alt="25th" />
+				    </div>
+			      <figcaption>
+		          <p>25th</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//25.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//dostraypar.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//dostraypar.jpg" alt="Dostraypar" />
+				    </div>
+			      <figcaption>
+		          <p>Dostraypar</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//dostraypar.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//fresaredondaedit.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//fresaredondaedit.jpg" alt="Fresaredondaedit" />
+				    </div>
+			      <figcaption>
+		          <p>Fresaredondaedit</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//fresaredondaedit.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//frpled.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//frpled.jpg" alt="Frpled" />
+				    </div>
+			      <figcaption>
+		          <p>Frpled</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//frpled.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//maq.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//maq.jpg" alt="Maq" />
+				    </div>
+			      <figcaption>
+		          <p>Maq</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//maq.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//pr.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//pr.jpg" alt="Pr" />
+				    </div>
+			      <figcaption>
+		          <p>Pr</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//pr.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//res.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//res.jpg" alt="Res" />
+				    </div>
+			      <figcaption>
+		          <p>Res</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//res.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//resplisto.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//resplisto.jpg" alt="Resplisto" />
+				    </div>
+			      <figcaption>
+		          <p>Resplisto</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//resplisto.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://isabelpintodela.github.io/img/encargo3img//skar.jpg');" >
+				      <img itemprop="thumbnail" src="https://isabelpintodela.github.io/img/encargo3img//skar.jpg" alt="Skar" />
+				    </div>
+			      <figcaption>
+		          <p>Skar</p>
+			      </figcaption>
+				    <a href="https://isabelpintodela.github.io/img/encargo3img//skar.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
 <p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
