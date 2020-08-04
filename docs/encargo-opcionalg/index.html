@@ -119,11 +119,19 @@
     </li>
     
     <li class="">
-      <a href="https://isabelpintodela.github.io/docs/encargo-4/">Encargo 4...</a>
+      <a href="https://isabelpintodela.github.io/docs/encargo-4/">Encargo 4 - Maceta</a>
     </li>
     
     <li class="active ">
       <a href="https://isabelpintodela.github.io/docs/encargo-opcionalg/">Encargo Bonus Grasshopper</a>
+    </li>
+    
+    <li class="">
+      <a href="https://isabelpintodela.github.io/docs/encargo-superbonus/">Encargo Bonus Grasshopper</a>
+    </li>
+    
+    <li class="">
+      <a href="https://isabelpintodela.github.io/docs/encargo-opcionalm2/">Encargo Bonus Mecanizado</a>
     </li>
     
   </ul>
@@ -135,14 +143,77 @@
           
 <h1 class="title">Encargo Bonus Grasshopper</h1>
 <div class="content ">
-  <h1 id="mecanizado-25d-con-archivo-de-grasshopper">Mecanizado 2.5D con archivo de Grasshopper</h1>
+  <h1 id="mecanizado-con-archivo-de-grasshopper">Mecanizado con archivo de Grasshopper</h1>
 <p>Martes 03-08-2020
 .</p>
 <h2 id="encargo">Encargo</h2>
 <p>Este encargo similar al anterior, ya que tenemos que trabajar un mecanizado, pero en este caso, de un modelo de Grasshopper en el programa Fusion 360.
 A continuación les mostraré mediante un iframe el modelo a trabajar, y luego los pasos a seguir.</p>
 <h2 id="proceso-de-mecanizado">Proceso de mecanizado</h2>
-<h4 id="1">1.</h4>
+<p>Los pasos a seguir para este modelo son muy parecidos a los del respaldo de la silla Fresia, además se agrega un 2D Contour. Cómo ya hemos realizado estos pasos en ejercicios anteriores, no le daré tanto enfasis a las explicaciones específicas de qué es cada cosa y me centraré más en las imagenes.</p>
+<h4 id="1-alinear-mi-pieza-y-acercarla-al-origen">1. Alinear mi pieza y acercarla al origen.</h4>
+<p>Este paso ya viene listo.</p>
+<h4 id="2-crear-mi-área-de-trabajo">2. Crear mi área de trabajo.</h4>
+<p>Debo crear mi sketch y extruirlo.
+<img src="/img/encargoBgrasshopper/planchagras.jpg" alt="MecanizadoBGrasshopper"></p>
+<h4 id="3-configurar-opciones-de-mecanizado">3. Configurar opciones de mecanizado.</h4>
+<p>Crear mi Setup y personalizarlo.
+La máquina a utilizar es la misma que hemos visto en los ejecicios anteriores. <em>Generic 3-Axis</em>.</p>
+<h4 id="4-optimizar-el-mecanizado">4. Optimizar el mecanizado.</h4>
+<p>Debo crear un sketch de proyección en la cara superior de mi plancha.
+<img src="/img/encargoBgrasshopper/sketch2.jpg" alt="MecanizadoBGrasshopper"></p>
+<h4 id="5-determinar-las-operaciones-de-mecanizado">5. Determinar las operaciones de mecanizado.</h4>
+<p>Definimos los tipos de operaciones a realizar.</p>
+<h6 id="51-adaptative-clearing">5.1 Adaptative Clearing</h6>
+<p>Acá utilizamos la Fresa de punta plana que se muestra en la foto a continuación (flat end mill). Esta es la que ocupamos para las primeras piezas de la silla fresia, la que no tenía edición alguna.
+<img src="/img/encargoBgrasshopper/fresaplanasel.jpg" alt="MecanizadoBGrasshopper"></p>
+<p>Al configurar esta operación primero se muestra la trayectoria a realizar y luego se hace la simulación, mostraté estas dos respectivamente en una foto y  un video.
+<img src="/img/encargoBgrasshopper/trayadap.jpg" alt="MecanizadoBGrasshopper">
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargoBgrasshopper/vadapgras.mp4"  type="video/mp4">
+    </video>
+</div></p>
+<h6 id="52-parallel">5.2 Parallel</h6>
+<p>Acá utilizamos la Fresa de punta redonda que se muestra en la foto a continuación (ball end mill).
+<img src="/img/encargoBgrasshopper/fresaredgras.jpg" alt="MecanizadoBGrasshopper"></p>
+<p>Al configurar esta operación primero se muestra la trayectoria a realizar y luego se hace la simulación, mostraté estas dos respectivamente en dos fotos y dos video. Como esta operación se hace en los dos sentidos serán dos fotos de trayectoria las que se muestran y dos videos.</p>
+<p>Trayectoria y simulación 1.
+<img src="/img/encargoBgrasshopper/trayparalel1grass.jpg" alt="MecanizadoBGrasshopper">
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargoBgrasshopper/vparalel1gras.mp4"  type="video/mp4">
+    </video>
+</div></p>
+<p>Trayectoria y simulación 2.
+<img src="/img/encargoBgrasshopper/trayparalel2grass.jpg" alt="MecanizadoBGrasshopper">
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargoBgrasshopper/vparalel2gras.mp4"  type="video/mp4">
+    </video>
+</div></p>
+<h6 id="53-2d-contour">5.3 2D Contour</h6>
+<p>Acá utilizamos la Fresa de punta plana que se muestra en la foto a continuación (flat end mill). Esta es la que ocupamos para las primeras piezas de la silla fresia, la que no tenía edición alguna.
+<img src="/img/encargoBgrasshopper/fresaplanasel.jpg" alt="MecanizadoBGrasshopper">
+.</p>
+<p>Abajo les dejo una simulación de la trayectoria de 2D contour, donde deben recordar que es muy importante el uso de los <strong>TABS</strong> que se muestra con un acercamiento al final del video.
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/img//encargoBgrasshopper/v2dcontourgras.mp4"  type="video/mp4">
+    </video>
+</div></p>
 <p><a href="#top">[Volver Arriba]</a></p>
 
 </div>
