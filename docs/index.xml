@@ -80,7 +80,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-4/</guid>
-      <description>En proceso.</description>
+      <description>Maceta hecha en base a materiales orgánicos.</description>
     </item>
     
     <item>
@@ -89,16 +89,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-opcionalg/</guid>
-      <description>En proceso.</description>
-    </item>
-    
-    <item>
-      <title>Encargo Bonus Grasshopper</title>
-      <link>https://isabelpintodela.github.io/docs/encargo-superbonus/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://isabelpintodela.github.io/docs/encargo-superbonus/</guid>
-      <description>En proceso.</description>
+      <description>Mecanizado con archivo de Grasshopper.</description>
     </item>
     
     <item>
@@ -107,7 +98,16 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://isabelpintodela.github.io/docs/encargo-opcionalm2/</guid>
-      <description>En proceso.</description>
+      <description>Mecanizado de algún modelo a elección.</description>
+    </item>
+    
+    <item>
+      <title>Encargo Super Bonus </title>
+      <link>https://isabelpintodela.github.io/docs/encargo-superbonus/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/encargo-superbonus/</guid>
+      <description>Investigación de materiales.</description>
     </item>
     
   </channel>
