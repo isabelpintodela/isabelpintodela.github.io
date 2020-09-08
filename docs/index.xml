@@ -128,5 +128,23 @@
       <description>Investigación de materiales.</description>
     </item>
     
+    <item>
+      <title>Examen: Proceso</title>
+      <link>https://isabelpintodela.github.io/docs/post-proceso/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/post-proceso/</guid>
+      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el proceso del diseño y modelado 3D de la maceta, su molde y contramolde. Junto al recorrido en la  experimentación de materiales para poder fabricar nuestro contenedor.</description>
+    </item>
+    
+    <item>
+      <title>Examen: Producto</title>
+      <link>https://isabelpintodela.github.io/docs/post-producto/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/post-producto/</guid>
+      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el producto final que diseñamos llamado Bee.</description>
+    </item>
+    
   </channel>
 </rss>
