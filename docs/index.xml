@@ -84,30 +84,48 @@
     </item>
     
     <item>
-      <title>Encargo 5 - Grupal: Diseño y Modelado maceta para impresión 3D &#43; Investigación de  materiales</title>
-      <link>https://isabelpintodela.github.io/docs/encargo-5/</link>
+      <title>Encargo 5.1</title>
+      <link>https://isabelpintodela.github.io/docs/dise%C3%B1o-maceta-y-molde/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/docs/encargo-5/</guid>
-      <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde. Junto a la investigación de materiales para poder fabricar estos contenedores..</description>
-    </item>
-    
-    <item>
-      <title>Encargo 5.1 - Revisión Grupal: Diseño y Modelado maceta para impresión 3D &#43; Investigación de  materiales</title>
-      <link>https://isabelpintodela.github.io/docs/encargo-5-1/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://isabelpintodela.github.io/docs/encargo-5-1/</guid>
+      <guid>https://isabelpintodela.github.io/docs/dise%C3%B1o-maceta-y-molde/</guid>
       <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde. Junto a la investigación de materiales para poder fabricar estos contenedores.</description>
     </item>
     
     <item>
-      <title>Encargo 5.2 - Pre Examen: Diseño y Modelado maceta para impresión 3D &#43; Investigación de  materiales</title>
-      <link>https://isabelpintodela.github.io/docs/encargo-5-2/</link>
+      <title>Encargo 5.2</title>
+      <link>https://isabelpintodela.github.io/docs/revisi%C3%B3n-dise%C3%B1o/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/docs/encargo-5-2/</guid>
+      <guid>https://isabelpintodela.github.io/docs/revisi%C3%B3n-dise%C3%B1o/</guid>
+      <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde. Junto a la experimentación de materiales para poder fabricar estos contenedores.</description>
+    </item>
+    
+    <item>
+      <title>Encargo 5.3</title>
+      <link>https://isabelpintodela.github.io/docs/entrega-pre-examen/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/entrega-pre-examen/</guid>
       <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde.</description>
+    </item>
+    
+    <item>
+      <title>Examen: Proceso</title>
+      <link>https://isabelpintodela.github.io/docs/post-proceso/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/post-proceso/</guid>
+      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre la experimentación de materiales para poder fabricar nuestro contenedor. Junto al recorrido del proceso de diseño y modelado 3D de la maceta, su molde y contramolde. Para finalizar con la integración de ambos procesos.</description>
+    </item>
+    
+    <item>
+      <title>Examen: Producto</title>
+      <link>https://isabelpintodela.github.io/docs/post-producto/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://isabelpintodela.github.io/docs/post-producto/</guid>
+      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el producto final que diseñamos llamado Bee.</description>
     </item>
     
     <item>
@@ -126,24 +144,6 @@
       
       <guid>https://isabelpintodela.github.io/docs/encargo-superbonus/</guid>
       <description>Investigación de materiales.</description>
-    </item>
-    
-    <item>
-      <title>Examen: Proceso</title>
-      <link>https://isabelpintodela.github.io/docs/post-proceso/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://isabelpintodela.github.io/docs/post-proceso/</guid>
-      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el proceso del diseño y modelado 3D de la maceta, su molde y contramolde. Junto al recorrido en la  experimentación de materiales para poder fabricar nuestro contenedor.</description>
-    </item>
-    
-    <item>
-      <title>Examen: Producto</title>
-      <link>https://isabelpintodela.github.io/docs/post-producto/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://isabelpintodela.github.io/docs/post-producto/</guid>
-      <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el producto final que diseñamos llamado Bee.</description>
     </item>
     
   </channel>
