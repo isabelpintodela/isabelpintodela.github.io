@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>-Fabricación Digital- on Nombre Alumno</title>
-    <link>https://isabelpintodela.github.io/fabricaciondigital</link>
+    <link>https://isabelpintodela.github.io/</link>
     <description>Recent content in -Fabricación Digital- on Nombre Alumno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -13,145 +13,145 @@
     
     <item>
       <title>Instalar Tema</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/instalar-tema/</link>
+      <link>https://isabelpintodela.github.io/docs/instalar-tema/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/instalar-tema/</guid>
+      <guid>https://isabelpintodela.github.io/docs/instalar-tema/</guid>
       <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
     </item>
     
     <item>
       <title>Configuración</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/configuracion/</link>
+      <link>https://isabelpintodela.github.io/docs/configuracion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/configuracion/</guid>
+      <guid>https://isabelpintodela.github.io/docs/configuracion/</guid>
       <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
     <item>
       <title>Ejemplo Shortcodes</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/ejemplo/</link>
+      <link>https://isabelpintodela.github.io/docs/ejemplo/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/ejemplo/</guid>
+      <guid>https://isabelpintodela.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
     </item>
     
     <item>
       <title>Ejemplos Markdown</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/markdown/</link>
+      <link>https://isabelpintodela.github.io/docs/markdown/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/markdown/</guid>
+      <guid>https://isabelpintodela.github.io/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
     <item>
       <title>Encargo 1 - Planimetría</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-1/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-1/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-1/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-1/</guid>
       <description>Planimetrías trabajadas con la Silla EAMES en Fusion 360.</description>
     </item>
     
     <item>
       <title>Encargo 2 - Mecanizado CNC</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-2/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-2/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-2/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-2/</guid>
       <description>Mecanizado CNC de la silla Fresia en Fusion 360.</description>
     </item>
     
     <item>
       <title>Encargo 3 - Mecanizado 2.5D</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-3/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-3/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-3/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-3/</guid>
       <description>Mecanizado 2.5D de la silla Fresia en Fusion 360.</description>
     </item>
     
     <item>
       <title>Encargo 4 - Maceta</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-4/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-4/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-4/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-4/</guid>
       <description>Maceta hecha en base a materiales orgánicos.</description>
     </item>
     
     <item>
       <title>Encargo 5.1</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/dise%C3%B1o-maceta-y-molde/</link>
+      <link>https://isabelpintodela.github.io/docs/dise%C3%B1o-maceta-y-molde/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/dise%C3%B1o-maceta-y-molde/</guid>
+      <guid>https://isabelpintodela.github.io/docs/dise%C3%B1o-maceta-y-molde/</guid>
       <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde. Junto a la investigación de materiales para poder fabricar estos contenedores.</description>
     </item>
     
     <item>
       <title>Encargo 5.2</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/revisi%C3%B3n-dise%C3%B1o/</link>
+      <link>https://isabelpintodela.github.io/docs/revisi%C3%B3n-dise%C3%B1o/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/revisi%C3%B3n-dise%C3%B1o/</guid>
+      <guid>https://isabelpintodela.github.io/docs/revisi%C3%B3n-dise%C3%B1o/</guid>
       <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde. Junto a la experimentación de materiales para poder fabricar estos contenedores.</description>
     </item>
     
     <item>
       <title>Encargo 5.3</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/entrega-pre-examen/</link>
+      <link>https://isabelpintodela.github.io/docs/entrega-pre-examen/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/entrega-pre-examen/</guid>
+      <guid>https://isabelpintodela.github.io/docs/entrega-pre-examen/</guid>
       <description>Documentación del Encargo Grupal (Daza-Pinto-Zhang) sobre el diseño y modelado 3D de la maceta, su molde y contramolde.</description>
     </item>
     
     <item>
       <title>Examen: Proceso</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/post-proceso/</link>
+      <link>https://isabelpintodela.github.io/docs/post-proceso/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/post-proceso/</guid>
+      <guid>https://isabelpintodela.github.io/docs/post-proceso/</guid>
       <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre la experimentación de materiales para poder fabricar nuestro contenedor. Junto al recorrido del proceso de diseño y modelado 3D de la maceta, su molde y contramolde. Para finalizar con la integración de ambos procesos.</description>
     </item>
     
     <item>
       <title>Examen: Producto</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/post-producto/</link>
+      <link>https://isabelpintodela.github.io/docs/post-producto/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/post-producto/</guid>
+      <guid>https://isabelpintodela.github.io/docs/post-producto/</guid>
       <description>Documentación del Examen Final (Daza-Pinto-Zhang) sobre el producto final que diseñamos llamado Bee.</description>
     </item>
     
     <item>
       <title>Bonus Examen</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/bonus-examen/</link>
+      <link>https://isabelpintodela.github.io/docs/bonus-examen/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/bonus-examen/</guid>
+      <guid>https://isabelpintodela.github.io/docs/bonus-examen/</guid>
       <description>Complemento BEE</description>
     </item>
     
     <item>
       <title>Encargo Bonus Grasshopper</title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-opcionalg/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-opcionalg/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-opcionalg/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-opcionalg/</guid>
       <description>Mecanizado con archivo de Grasshopper.</description>
     </item>
     
     <item>
       <title>Encargo Super Bonus </title>
-      <link>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-superbonus/</link>
+      <link>https://isabelpintodela.github.io/docs/encargo-superbonus/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://isabelpintodela.github.io/fabricaciondigital/docs/encargo-superbonus/</guid>
+      <guid>https://isabelpintodela.github.io/docs/encargo-superbonus/</guid>
       <description>Investigación de materiales.</description>
     </item>
     
